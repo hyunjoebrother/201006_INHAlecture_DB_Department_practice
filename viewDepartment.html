@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>viewDepartment</title>
+</head>
+
+<body>
+	<!-- 사용자가 "조회 (View)" 버튼을 누르면 DAO의 getTheDepartmentList() 호출하여
+	TheDepartment relation의 모든 tuple을 html로 표현 -->
+	
+	<form method = 'get' action="/200925_DB_homework_Department/DepartmentDAO">
+
+        Dname = <input type="text" name = "Dname"><br>
+        Dnumber = <input type="text" name = "Dnumber"><br>
+        Mgr_ssn = <input type="text" name = "Mgr_ssn"><br>
+        Mgr_start_date = <input type="text" name = "Mgr_start_date"><br>
+        
+    <input type="submit" value = "view">VIEW<br>
+    
+    </form>
+</body>
+
+</html>

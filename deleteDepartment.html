@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>deleteDepartment</title>
+</head>
+
+<body>
+	<!-- Dname, Dnumber, Mgr_ssn, Mgr_start_date를 사용자로부터 form을 통해 입력받은 후
+	해당 Dnumber를 DAO의 updateTheDepartment()를 호출하여 업데이트한 후 그 결과를 html로 표현 -->
+
+	<form method = 'get' action="/200925_DB_homework_Department/DepartmentDAO">
+    Dname = <input type="text" name = "Dname"><br>
+    Dnumber = <input type="text" name = "Dnumber"><br>
+    Mgr_ssn = <input type="text" name = "Mgr_ssn"><br>
+    Mgr_start_date = <input type="text" name = "Mgr_start_date"><br>
+
+
+    <input type="submit" value = "ok"><br>
+    
+    </form>
+</body>
+
+</html>
